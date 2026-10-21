@@ -44,6 +44,7 @@ _SEM = threading.BoundedSemaphore(MAX_CONCURRENCY) if MAX_CONCURRENCY > 0 else N
 
 
 _DROP_ENV = (
+    "HARNESS2_QWEN_API_KEY",
     "ANTHROPIC_API_KEY",
     "ANTHROPIC_AUTH_TOKEN",
     "ANTHROPIC_BASE_URL",
